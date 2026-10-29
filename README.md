@@ -66,11 +66,7 @@ The script has no dependencies on Torres Trail data — TASKS is the entire proj
 
 Relationship to TAMP web app
 
-build_gantt.py is a standalone generator — it does not read from or write to TAMF_v4.html.
-
-The TAMP web app (TAMF_v4.html) has a built-in Project Schedule tab that renders a live Gantt canvas inside the browser, auto-populated from the active trail's work orders, with an Export .xlsx button that produces a similar spreadsheet without needing Python.
-
-Use this Python script when you want a fully formatted, formula-ready Excel file to share with stakeholders outside the app.
+build_gantt.py is a standalone generator 
 
 Output file
 
